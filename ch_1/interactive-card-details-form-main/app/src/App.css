@@ -1,0 +1,335 @@
+
+/* .container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.aside{
+    background-image: url('./assets/bg-main-mobile.png');
+  width: 100%;
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main__content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60vh;
+  background-color: var(--White);
+}
+.cards{
+  width: calc(375px - 100px);
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  transform: translate(-50%, 10px);
+  z-index: 2;
+}
+.cards:nth-last-child(1){
+  top: 6%;
+  left: 60%;
+  z-index: 1;
+} */
+
+
+/* @media screen and (min-width: 900px) {
+  .container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  .aside{
+      background-image: url('./assets/bg-main-desktop.png');
+    width: 30%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .main__content{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+    width: 70%;
+    height: 100vh;
+    background-color: var(--White);
+  }
+
+.card__container{
+  width: 500px;
+    height: 400px;
+    background-color: rgb(138, 91, 30);
+    position: relative;
+    top: 50%;
+    right: 140%;
+    transform: translate(50%, 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card__type__logo{
+  width: 100%;
+  height: 90px;
+  background-color: red;
+}
+.card__details__front div{
+  position: absolute;
+
+  display: flex;
+  flex-direction: column;
+}
+.card__details__front div p{
+  margin: 10px;
+}
+
+  .cards{
+    width: calc(375px - 100px);
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    transform: translate(-50%, 10px);
+    z-index: 2;
+  }
+  .cards:nth-last-child(1){
+    top: 50%;
+    left: 30%;
+    z-index: 1;
+  }
+  .form{
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+
+  }
+ 
+  input{
+    margin-bottom: 20px;
+    width: 90%;
+    height: 30px;
+    border: 1px solid var(--Light-grayish-violet);
+    padding-left: 15px;
+    font-weight: 500;
+    font-family: 'Space Grotesk';
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: transparent;
+    
+  }
+ 
+  input:focus{
+       border: double 1px transparent;
+       background-image: linear-gradient(white, white), linear-gradient(to right,var( --active-border-color));
+       background-origin: border-box;
+       background-clip: padding-box, border-box;
+       outline: none;
+  }
+
+ 
+  .err{
+    border: 1px solid var(--error-color);
+   
+       background-image: linear-gradient(white, white), var(--error-color);
+       background-origin: border-box;
+       background-clip: padding-box, border-box;
+       outline: none;
+       color: var(--error-color);
+    
+}
+  label{
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin: 5px;
+
+  }
+  
+  .card__lastPart{
+    display: flex;
+    width: 100%;
+  }
+
+  .date{
+    display: flex;
+    width: 65%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+  }
+  .date div{
+    display: flex;
+  }
+  .cvc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+
+  }
+  .date input{
+    width: 30%;
+    margin: 0 3px;
+    margin-bottom: 20px;
+  }
+  .btn{
+    width: 100%;
+    height: 35px;
+    font-family: 'Space Grotesk';
+    font-weight: 500;
+    background: var(--Very-dark-violet);
+    border: none;
+    border-radius: 5px;
+    color: var(--Light-grayish-violet);
+    cursor: pointer;
+  }
+} */
+
+
+@media screen and (min-width: 900px) {
+  .container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  .aside{
+    background-image: url('./assets/bg-main-desktop.png');
+    width: 30%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .main__content{
+    width: 70%;
+    height: 100vh;
+  }
+  .form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    width: 300px;
+    text-align: left;
+  }
+  .card{
+    position: relative;
+    right: 30%;
+  }
+  rect {
+    background-size: 20px 30px;
+  }
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  input{
+    margin-bottom: 20px;
+    width: 90%;
+    height: 30px;
+    border: 1px solid var(--Light-grayish-violet);
+    padding-left: 15px;
+    font-weight: 500;
+    font-family: 'Space Grotesk';
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: transparent;
+    
+  }
+ 
+  input:focus{
+       border: double 1px transparent;
+       background-image: linear-gradient(white, white), linear-gradient(to right,var( --active-border-color));
+       background-origin: border-box;
+       background-clip: padding-box, border-box;
+       outline: none;
+  }
+
+ 
+  .err{
+    border: 1px solid var(--error-color);
+   
+       background-image: linear-gradient(white, white), var(--error-color);
+       background-origin: border-box;
+       background-clip: padding-box, border-box;
+       outline: none;
+       color: var(--error-color);
+    
+}
+  label{
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin: 5px;
+
+  }
+  
+  .card__lastPart{
+    display: flex;
+    width: 100%;
+  }
+
+  .date{
+    display: flex;
+    width: 65%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+  }
+  .date div{
+    display: flex;
+  }
+  .cvc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+
+  }
+  .date input{
+    width: 30%;
+    margin: 0 3px;
+    margin-bottom: 20px;
+  }
+
+
+
+
+
+
+
+
+  .cards{
+    width: calc(375px - 30px);
+  }
+}
